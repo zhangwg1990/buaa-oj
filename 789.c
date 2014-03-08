@@ -1,0 +1,84 @@
+#include<stdio.h>
+#include<string.h>
+
+int main() {
+    int n;
+    char a[36][3];
+    char b[36][30];
+    strcpy(a[0],  "H");
+    strcpy(a[1],  "He");
+    strcpy(a[2],  "Li");
+    strcpy(a[3],  "Be");
+    strcpy(a[4],  "B");
+    strcpy(a[5],  "C");
+    strcpy(a[6],  "N");
+    strcpy(a[7],  "O");
+    strcpy(a[8],  "F");
+    strcpy(a[9],  "Ne");
+    strcpy(a[10], "Na");
+    strcpy(a[11], "Mg");
+    strcpy(a[12], "Al");
+    strcpy(a[13], "Si");
+    strcpy(a[14], "P");
+    strcpy(a[15], "S");
+    strcpy(a[16], "Cl");
+    strcpy(a[17], "Ar");
+    strcpy(a[18], "K");
+    strcpy(a[19], "Ga");
+    strcpy(a[20], "Sc");
+    strcpy(a[21], "Ti");
+    strcpy(a[22], "V");
+    strcpy(a[23], "Cr");
+    strcpy(a[24], "Mn");
+    strcpy(a[25], "Fe");
+    strcpy(a[26], "Co");
+    strcpy(a[27], "Ni");
+    strcpy(a[28], "Cu");
+    strcpy(a[29], "Zn");
+    strcpy(a[30], "Ga");
+    strcpy(a[31], "Ge");
+    strcpy(a[32], "As");
+    strcpy(a[33], "Se");
+    strcpy(a[34], "Br");
+    strcpy(a[35], "Kr");
+    strcpy(b[0],  "1s1");
+    strcpy(b[1],  "1s2");
+    strcpy(b[2],  "1s22s1");
+    strcpy(b[3],  "1s22s2");
+    strcpy(b[4],  "1s22s22p1");
+    strcpy(b[5],  "1s22s22p2");
+    strcpy(b[6],  "1s22s22p3");
+    strcpy(b[7],  "1s22s22p4");
+    strcpy(b[8],  "1s22s22p5");
+    strcpy(b[9],  "1s22s22p6");
+    strcpy(b[10], "1s22s22p63s1");
+    strcpy(b[11], "1s22s22p63s2");
+    strcpy(b[12], "1s22s22p63s23p1");
+    strcpy(b[13], "1s22s22p63s23p2");
+    strcpy(b[14], "1s22s22p63s23p3");
+    strcpy(b[15], "1s22s22p63s23p4");
+    strcpy(b[16], "1s22s22p63s23p5");
+    strcpy(b[17], "1s22s22p63s23p6");
+    strcpy(b[18], "1s22s22p63s23p64s1");
+    strcpy(b[19], "1s22s22p63s23p64s2");
+    strcpy(b[20], "1s22s22p63s23p63d14s2");
+    strcpy(b[21], "1s22s22p63s23p63d24s2");
+    strcpy(b[22], "1s22s22p63s23p63d34s2");
+    strcpy(b[23], "1s22s22p63s23p63d54s1");
+    strcpy(b[24], "1s22s22p63s23p63d54s2");
+    strcpy(b[25], "1s22s22p63s23p63d64s2");
+    strcpy(b[26], "1s22s22p63s23p63d74s2");
+    strcpy(b[27], "1s22s22p63s23p63d84s2");
+    strcpy(b[28], "1s22s22p63s23p63d104s1");
+    strcpy(b[29], "1s22s22p63s23p63d104s2");
+    strcpy(b[30], "1s22s22p63s23p63d104s24p1");
+    strcpy(b[31], "1s22s22p63s23p63d104s24p2");
+    strcpy(b[32], "1s22s22p63s23p63d104s24p3");
+    strcpy(b[33], "1s22s22p63s23p63d104s24p4");
+    strcpy(b[34], "1s22s22p63s23p63d104s24p5");
+    strcpy(b[35], "1s22s22p63s23p63d104s24p6");
+    while (EOF != scanf("%d", &n)) {
+        //printf("%s\n", a[n - 1]);
+        printf("%s\n", b[n - 1]);
+    }
+}
