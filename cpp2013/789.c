@@ -24,7 +24,7 @@ int main() {
     strcpy(a[16], "Cl");
     strcpy(a[17], "Ar");
     strcpy(a[18], "K");
-    strcpy(a[19], "Ga");
+    strcpy(a[19], "Ca");
     strcpy(a[20], "Sc");
     strcpy(a[21], "Ti");
     strcpy(a[22], "V");
@@ -78,7 +78,8 @@ int main() {
     strcpy(b[34], "1s22s22p63s23p63d104s24p5");
     strcpy(b[35], "1s22s22p63s23p63d104s24p6");
     while (EOF != scanf("%d", &n)) {
-        //printf("%s\n", a[n - 1]);
+        printf("%s\n", a[n - 1]);
         printf("%s\n", b[n - 1]);
     }
+    return 0;
 }
